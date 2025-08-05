@@ -36,7 +36,6 @@ Thumbs.db
 
 # Composer
 composer.phar
-composer.lock
 
 # NPM
 npm-debug.log*

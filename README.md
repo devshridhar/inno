@@ -49,7 +49,26 @@ You should see 4 containers running:
 - `news_aggregator_db` (PostgreSQL)
 - `news_aggregator_redis` (Redis)
 
-#### 4. Setup Database
+#### 4. Install Dependencies (First Time Setup)
+
+If you're setting up the project for the first time or after cloning, you need to install dependencies:
+
+**Backend Dependencies (Laravel/PHP):**
+```bash
+# Install PHP dependencies via Docker
+docker compose exec backend composer install
+
+# Generate application key
+docker compose exec backend php artisan key:generate
+```
+
+**Frontend Dependencies (React/Node.js):**
+```bash
+# Install Node.js dependencies via Docker
+docker compose exec frontend npm install
+```
+
+#### 5. Database Setup
 Run Laravel migrations and seed the database:
 
 ```bash
@@ -60,7 +79,7 @@ docker compose exec backend php artisan migrate
 docker compose exec backend php artisan db:seed
 ```
 
-#### 5. Scrape News Articles
+#### 6. Scrape News Articles
 Populate the database with real news articles:
 
 ```bash
@@ -71,7 +90,7 @@ docker compose exec backend php artisan news:scrape
 docker compose exec backend php artisan queue:work --once
 ```
 
-#### 6. Access the Application
+#### 7. Access the Application
 🎉 **Your News Aggregator is now ready!**
 
 - **Frontend**: http://localhost:3000
