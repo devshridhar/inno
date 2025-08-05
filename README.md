@@ -97,49 +97,16 @@ docker compose exec backend php artisan queue:work --once
 - **Backend API**: http://localhost:8000/api
 
 ## 📸 Screenshots
+<img width="1284" height="1347" alt="image" src="https://github.com/user-attachments/assets/aca22878-2321-488d-b766-07ebe16efa2a" />
+<img width="1252" height="1326" alt="image" src="https://github.com/user-attachments/assets/fdce3515-7400-4c74-979a-8b37c6ae36b8" />
+<img width="1270" height="971" alt="image" src="https://github.com/user-attachments/assets/2daf7259-62fb-4265-b384-1b730e134f5b" />
+<img width="1261" height="1159" alt="image" src="https://github.com/user-attachments/assets/e3da4953-eac4-4a04-b00b-a17a2d7e33cc" />
+<img width="637" height="638" alt="image" src="https://github.com/user-attachments/assets/bfabae22-4304-4750-bae7-1ea4ec3db830" />
+<img width="740" height="945" alt="image" src="https://github.com/user-attachments/assets/1ba6f65a-cb9c-457b-ba83-4a8012d31f58" />
 
-### 🏠 **Home Page - Latest News**
-*Main dashboard showing latest news articles with filtering options*
 
-![Home Page](screenshots/home-page.png)
 
-### 🔐 **User Authentication**
-*Clean and modern login/registration interface*
 
-![Login Form](screenshots/login-form.png)
-![Registration Form](screenshots/registration-form.png)
-
-### 📂 **Categories View**
-*Browse news by different categories with visual indicators*
-
-![Categories Page](screenshots/categories-page.png)
-
-### 📡 **News Sources**
-*Explore all available news sources with metadata*
-
-![Sources Page](screenshots/sources-page.png)
-
-### 🔍 **Advanced Search & Filtering**
-*Powerful search with real-time filtering capabilities*
-
-![Search and Filters](screenshots/search-filters.png)
-
-### 🔖 **Personal Bookmarks**
-*Save and manage your favorite articles (requires authentication)*
-
-![Bookmarks Page](screenshots/bookmarks-page.png)
-
-### 📱 **Mobile Responsive Design**
-*Fully optimized for mobile devices and tablets*
-
-![Mobile View](screenshots/mobile-view.png)
-
-### 🎨 **Dark/Light Theme Support**
-*Beautiful interface that adapts to user preferences*
-
-![Theme Options](screenshots/theme-options.png)
-
-> **Note**: Screenshots will be added soon. The application is fully functional and ready to use!
 
 ## 📱 Features
 
